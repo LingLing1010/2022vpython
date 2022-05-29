@@ -1,5 +1,8 @@
 import random
 
+a = input("name :" )
+print("welcome" + " a")
+
 bg = []
 point = 0
 hl1 = False
