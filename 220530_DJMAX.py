@@ -1,7 +1,7 @@
 import random
 
 a = input("name :" )
-print("welcome" + " a")
+print("welcome " + a)
 
 bg = []
 point = 0
@@ -101,3 +101,9 @@ while True:
                 point += 1
             hl4 = False
             print("point : "+point)
+        if point >= 30:
+            print(a +" Succeeded! (" + point + " point)")
+            break
+        if point <= -30:
+            print(a +" Failed.. (" + point + " point)")
+            break
